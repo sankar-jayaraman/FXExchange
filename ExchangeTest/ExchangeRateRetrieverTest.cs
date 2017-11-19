@@ -2,11 +2,10 @@
 using Exchange;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Castle.Core;
 
 namespace ExchangeTest
 {
-    [TestClass]
+	[TestClass]
     public class ExchangeRateRetrieverTest
     {
         private static int Multiplier = 100;

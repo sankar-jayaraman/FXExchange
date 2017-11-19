@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange", "Exchange\Exchan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeTest", "ExchangeTest\ExchangeTest.csproj", "{0D447953-3BB6-4A69-ABD8-0343007E5E23}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B29A8A02-8AF8-4A39-9FC0-DA0F6799A860}"
+	ProjectSection(SolutionItems) = preProject
+		Build Instructions for FX Exchange Project.docx = Build Instructions for FX Exchange Project.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

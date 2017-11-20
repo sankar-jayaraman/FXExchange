@@ -22,7 +22,14 @@ namespace Exchange
 			var currencies = args[0].Split('/');
 			var amount = Convert.ToDouble(args[1]);
 			var calculator = container.GetInstance<IExchangeRateCalculator>();
-			Console.WriteLine((calculator.Calculate(currencies[0], currencies[1], amount).ToString()));
+			try
+			{
+				Console.WriteLine((calculator.Calculate(currencies[0], currencies[1], amount).ToString()));
+			}
+			catch (ArgumentException argE)
+			{
+				return -1;
+			}
 			return 0;
 		}
 	}
